@@ -3,9 +3,10 @@ import AboutImg from "../assets/about.png";
 
 export default function About() {
     const config = {
-        line1: "Hi, My name is Sudharsan E. I am a Frontend Developer Fresher. I build responsive and modern websites using HTML, CSS, JavaScript, and React.js.",
-        line2: "I am proficient in Frontend skills like HTML5, CSS3, JavaScript, React.js, and Tailwind CSS.",
-        line3: "I am eager to learn backend technologies like Node.js and MongoDB to become a full-stack developer."
+        line1: "Hi, I'm Sudharsan E, a passionate Frontend Developer and 2025 Computer Science graduate.",
+        line2: "I enjoy building responsive, user-friendly web applications using HTML5, CSS3, JavaScript, and React.js. I have hands-on experience developing projects such as an Expense Tracker, Todo List, and Quiz Application.",
+        line3: "I'm continuously improving my frontend development skills and exploring backend technologies like Node.js and Java to expand my knowledge towards full-stack development.",
+        line4: "I'm eager to learn, take on new challenges, and contribute to building meaningful web applications."
     };
 
     return (
@@ -20,6 +21,7 @@ export default function About() {
                 <p>{config.line1}</p>
                 <p>{config.line2}</p>
                 <p>{config.line3}</p>
+                <p>{config.line4}</p>
             </div>
 
         </section>

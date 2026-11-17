@@ -6,10 +6,15 @@ export default function Skills() {
         { name: "HTML", level: "Advanced" },
         { name: "CSS", level: "Advanced" },
         { name: "JavaScript", level: "Intermediate" },
-        { name: "React JS", level: "Basic" },
-        { name: "SQL", level: "Basic" },
+        { name: "React JS", level: "Intermediate" },
+        { name: "SQL", level: "Intermediate" },
         { name: "Git", level: "Basic" },
-        { name: "GitHub", level: "Basic" }
+        { name: "GitHub", level: "Basic" },
+        { name: "Tailwind CSS", level: "Basic" },
+        { name: "Java", level: "Basic" },
+        { name: "Redux", level: "Basic" },
+        { name: "REST API", level: "Basic" },
+
     ];
 
     return (

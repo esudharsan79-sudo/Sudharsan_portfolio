@@ -1,10 +1,17 @@
 import React from "react";
 import todoImg from "../assets/todo-list.jpg";
 import quizImg from "../assets/quiz-app.jpg";
+import expenseImg from "../assets/expense-tracker.png"
 
 export default function Projects() {
 
     const projects = [
+        {   
+            image: expenseImg,
+            description: "Expense Tracker (ExpenseIQ) built using React.js and Redux Toolkit. Users can manage income and expenses, search and filter transactions, track category-wise budgets, visualize spending with interactive charts, and store data using Local Storage. Integrated currency exchange rates using REST API.",
+            github: "https://github.com/esudharsan79-sudo/Expense-Tracker.git",
+            demo: "https://expense-tracker-five-snowy-24.vercel.app" 
+        },
 
         {
             image: todoImg,

@@ -4,7 +4,7 @@ import ResumeImg from "../assets/resume.jpg";
 export default function Resume() {
 
     const config = {
-        link: "/Sudharsan E (11).pdf"
+        link: "/Sudharsan_E_Resume_Frontend.pdf"
     };
 
     return (
